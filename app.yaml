@@ -1,0 +1,5 @@
+service: test
+
+runtime: nodejs10
+env: standard
+handlers: [{url: /.*, script: auto}]
