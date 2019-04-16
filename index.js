@@ -3,10 +3,10 @@ const app = express();
 const mysql = require('mysql');
 
 const db = mysql.createConnection ({
-    host: '10.109.48.5',
-    user: 'apps',
-    password: 'sils123',
-    database: 'sils'
+    host: '0.0.0.0',
+    user: 'app',
+    password: 'password123',
+    database: 'dbname'
 });
 
 db.connect((err) => {
